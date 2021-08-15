@@ -55,6 +55,3 @@ PRODUCT_PACKAGES += \
 
 # Inherit from oneplus sm8250-common
 $(call inherit-product, device/oneplus/sm8250-common/common.mk)
-
-# Inherit from vendor blobs
-$(call inherit-product, vendor/oneplus/lemonades/lemonades-vendor.mk)
